@@ -19,23 +19,40 @@ body {
   min-width: 320px;
 }
 
+img {
+  display: block;
+}
+
 .banner {
   background-color: #2b3851;
+  position: relative;
+  margin: 0;
+  padding-top: 2rem;
 }
 
 .robot {
   width: 320px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 0;
 }
 
 .robot-body {
   width: 320px;
+  padding-top: 2rem;
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
+  left: 8.5rem;
+  top: 40px;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  position: absolute;
+  top: 0;
 }
