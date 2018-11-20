@@ -56,3 +56,25 @@ img {
   position: absolute;
   top: 0;
 }
+
+.robot-head-right {
+  right: 35px;
+}
+
+.robot-head-left {
+  left: 35px;
+}
+
+.robot:hover .robot-head-left {
+  left: 5px;
+  top: -10px;
+}
+
+.robot:hover .robot-head-right {
+  right: 5px;
+  top: -10px;
+}
+
+.robot:hover .robot-brain {
+  top: -5px;
+}
