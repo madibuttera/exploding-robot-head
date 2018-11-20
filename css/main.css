@@ -13,6 +13,12 @@ body {
   min-width: 320px;
 }
 
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
 .banner {
   background-color: #2b3851;
 }
